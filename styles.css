@@ -1,0 +1,76 @@
+/* Reset default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply a background color and set font styles for the entire page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+}
+
+/* Style the header section */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+header h1 {
+    font-size: 2rem;
+}
+
+/* Style the main content section */
+main {
+    padding: 2rem;
+}
+
+main h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+main p {
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+/* Style the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+footer p {
+    font-size: 0.8rem;
+}
+
+/* Style the navigation menu (optional) */
+nav {
+    background-color: #444;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
